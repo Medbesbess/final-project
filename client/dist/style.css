@@ -1,0 +1,55 @@
+
+body{
+    background-color: #c3f2ef;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0d9deb;
+    padding:1%;
+    
+  }
+
+  .table-container {
+    width: 100%;
+    margin-top:5%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  table {
+    width: 80%;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #110f0f;
+  }
+  
+  button.delete, button.update {
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+  }
+   button.update {
+    background-color: #008CBA;
+  }
+   button.delete:hover {
+    background-color: #e60000;
+  }
+   button.update:hover {
+    background-color: #007bb5;
+  }
+  .contanir{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20% ;
+    background-color: #008CBA;
+   
+  }
+  .item{
+    margin: 10px;
+  }
